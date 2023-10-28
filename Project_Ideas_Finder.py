@@ -41,7 +41,7 @@ try:
         shuffled_data = filtered_data.sample(frac=1, random_state=42)
         random_rows = shuffled_data.sample(data_size)
 
-    st.header("Results")
+    st.header("Results :mega:")
     if random_rows.empty:
         st.error("No projects found. Please try different filters.")
     else:
