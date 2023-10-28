@@ -14,20 +14,20 @@ try:
     st.image(img)
 
     st.header("SPIN - Simple Project Idea Navigator")
-    st.subheader("Fill the following to get required Project Idea")
+    st.subheader("Fill the following to get required Project Idea :bulb:")
 
     data = pd.read_csv('project_ideas_dataset.csv')
 
-    st.subheader("1. Enter Domain")
+    st.subheader(":pushpin: 1. Enter Domain")
     domain_options = data['Domain'].unique()
     selected_domain = st.selectbox("Select the domain you are interested in", domain_options)
 
-    st.subheader("2. Enter Difficulty Level")
+    st.subheader(":pushpin: 2. Enter Difficulty Level")
     selected_difficulty_level = st.selectbox("Choose a difficulty level", ['Beginner','Intermediate','Advanced'])
 
     filtered_data = domain_filter(selected_domain, selected_difficulty_level)
 
-    st.subheader("3. Choose Output size")
+    st.subheader(":pushpin: 3. Choose Output size")
     with st.expander("Output size"):    
         num_unique_projects = len(filtered_data['Project Name'].unique())
         data_size = st.slider('Enter Output size', 1, num_unique_projects, 2)
