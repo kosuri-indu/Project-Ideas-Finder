@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from PIL import Image
-import random
 
 def domain_filter(domain, difficulty):
     domain_data = data.groupby('Domain')
@@ -42,7 +41,7 @@ try:
         shuffled_data = filtered_data.sample(frac=1, random_state=42)
         random_rows = shuffled_data.sample(data_size)
 
-    st.header("Output")
+    st.header("Results")
     if random_rows.empty:
         st.error("No projects found. Please try different filters.")
     else:
