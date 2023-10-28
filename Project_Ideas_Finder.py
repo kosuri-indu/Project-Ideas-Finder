@@ -13,7 +13,8 @@ try:
     img = Image.open('lightbulb.jpeg')
     st.image(img)
 
-    st.header("Project Ideas Finder")
+    st.header("SPIN")
+    st.header("Simple Project Idea Navigator")
     st.subheader("Fill the following to get required Project Idea")
 
     data = pd.read_csv('project_ideas_dataset.csv')
