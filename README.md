@@ -26,7 +26,7 @@ Kosuri Lakshmi Indu (Myself)
 
 ## To View the GUI
 
-You can directly check out the link ([https://project-ideas-finder-web.streamlit.app/])
+You can directly check out the link [https://spin-web.streamlit.app/]
 
 - After cloning the loaded model
 - Run this in your Anaconda prompt : streamlit run [spin-web-app file path]
