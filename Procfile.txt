@@ -1,1 +1,1 @@
-web : streamlit run "Project Ideas Finder.py"  
+web : streamlit run Project_Ideas_Finder.py  
