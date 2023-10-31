@@ -46,7 +46,7 @@ try:
         st.error("No projects found. Please try different filters.")
     else:
         for _, row in random_rows.iterrows():
-            with st.expander(f"##{row['Project Name']}"):
+            with st.expander(f"{row['Project Name']}"):
                 st.markdown(f"**Description:** {row['Description']}")
                 st.markdown(f"**Type of Model:** {row['Type of Model']}")
                 st.markdown(f"**Type of Data used:** {row['Data Type']}")
