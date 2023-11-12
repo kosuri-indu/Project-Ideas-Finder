@@ -42,6 +42,7 @@ try:
         random_rows = shuffled_data.sample(data_size)
 
     st.header("Results :mega:")
+    st.write("**Shuffle to get new ideas**")
     if random_rows.empty:
         st.error("No projects found. Please try different filters.")
     else:
