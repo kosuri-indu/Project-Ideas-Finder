@@ -16,7 +16,7 @@ try:
     st.header("SPIN - Simple Project Idea Navigator")
     st.subheader("Fill the following to get required Project Idea :bulb:")
 
-    data = pd.read_csv('dataset/project_ideas_dataset.csv')
+    data = pd.read_csv('project_ideas_dataset.csv')
 
     st.subheader(":pushpin: 1. Enter Domain")
     domain_options = data['Domain'].unique()
