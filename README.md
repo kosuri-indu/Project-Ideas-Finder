@@ -14,11 +14,7 @@ The Simple Project Idea Navigator (SPIN) is a project that helps users discover 
 - Streamlit (Web Framework)
 - Pandas (Data Manipulation)
 - PIL (Python Imaging Library)
-
-## Contributor
-
-Kosuri Lakshmi Indu (Myself)
-
+  
 ## Installation
 
 - Clone the repository: git clone [repository_url]
