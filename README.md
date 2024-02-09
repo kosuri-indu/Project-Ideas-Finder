@@ -1,31 +1,18 @@
 # SPIN - Simple Project Idea Navigator
 
+SPIN is your go-to tool for project inspiration. Whether you're a seasoned developer looking for your next challenge or a beginner searching for a project to sharpen your skills, SPIN has you covered.
+
 ## Description
 
-The Simple Project Idea Navigator (SPIN) is a project that helps users discover project ideas based on their domain of interest and desired difficulty level. It provides a curated list of project suggestions from a dataset.
+SPIN simplifies the process of finding project ideas by offering a curated list of suggestions tailored to your interests and skill level. Say goodbye to endless brainstorming sessions and hello to actionable project ideas ready to be explored.
 
-## Demo
+With SPIN, you can:
 
-[Demo Video](https://github.com/kosuri-indu/SPIN-simple-project-idea-navigator/assets/118645569/6b6c1468-16d8-4ddc-a9e3-e611c9044a6f)
+- Browse project ideas based on your domain of interest.
+- Filter projects by difficulty level to match your expertise.
+- Discover new and exciting project possibilities to expand your portfolio.
+- Kickstart your next project with confidence and clarity.
 
-## Tech Stack
+## Link: [https://spin-web.streamlit.app/](https://spin-web.streamlit.app/)
 
-- Python (Programming Language)
-- Streamlit (Web Framework)
-- Pandas (Data Manipulation)
-- PIL (Python Imaging Library)
-  
-## Installation
-
-- Clone the repository: git clone [repository_url]
-- Install the required dependencies: pip install -r requirements.txt
-
-## To View the GUI
-
-You can directly check out the link [https://spin-web.streamlit.app/]
-
-- After cloning the loaded model
-- Run this in your Anaconda prompt : streamlit run [spin-web-app file path]
-- It will display a URL. CLick on it for exploring the Streamlit model.
-
-Feel free to explore and utilize the Webapp.
+Explore SPIN today and unlock a world of project possibilities!
