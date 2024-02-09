@@ -1,5 +1,8 @@
 # SPIN - Simple Project Idea Navigator
 
+[Demo Video](https://github.com/kosuri-indu/SPIN-simple-project-idea-navigator/assets/118645569/6b6c1468-16d8-4ddc-a9e3-e611c9044a6f)
+
+
 SPIN is your go-to tool for project inspiration. Whether you're a seasoned developer looking for your next challenge or a beginner searching for a project to sharpen your skills, SPIN has you covered.
 
 ## Description
