@@ -1,4 +1,4 @@
-# SPIN - Simple Project Idea Navigator
+# SPIN - Simple Project Idea Navigator 💡
 
 [Demo Video](https://github.com/kosuri-indu/SPIN-simple-project-idea-navigator/assets/118645569/6b6c1468-16d8-4ddc-a9e3-e611c9044a6f)
 
