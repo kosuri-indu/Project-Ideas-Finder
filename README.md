@@ -7,7 +7,7 @@ SPIN is your go-to tool for project inspiration. Whether you're a seasoned devel
 
 ## Description
 
-SPIN simplifies the process of finding project ideas by offering a curated list of suggestions tailored to your interests and skill level. Say goodbye to endless brainstorming sessions and hello to actionable project ideas ready to be explored.
+SPIN simplifies the process of finding project ideas by offering a curated list of suggestions tailored to your interests and skill level. Say goodbye to endless brainstorming sessions and hello to the new project ideas ready to be explored.
 
 With SPIN, you can:
 
@@ -19,3 +19,5 @@ With SPIN, you can:
 ## Link: [https://spin-web.streamlit.app/](https://spin-web.streamlit.app/)
 
 Explore SPIN today and unlock a world of project possibilities!
+<br>
+### _SPIN might take a moment to wake up if it's been snoozing, just give it a gentle nudge by refreshing the page. ⏰_
