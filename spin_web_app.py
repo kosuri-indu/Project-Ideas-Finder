@@ -30,7 +30,7 @@ try:
     st.subheader(":pushpin: 3. Choose Output size")
     with st.expander("Output size"):    
         num_unique_projects = len(filtered_data['Project Name'].unique())
-        data_size = st.slider('Enter Output size', 1, 7, 3))
+        data_size = st.slider('Enter Output size', 1, 7, 3)
 
     shuffled_data = filtered_data.sample(frac=1, random_state=42)
     random_rows = shuffled_data.sample(data_size)
